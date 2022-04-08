@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Work+Sans:wght@100&display=swap');
 
 
@@ -7,7 +8,7 @@
 }
 
 body{
-    background-color: rgb(242, 242, 247);
+    background-color: rgb(234, 234, 243);
 background-size: cover;
 }
  nav {
@@ -54,12 +55,18 @@ text-decoration: none;
 }
 
 nav ul li ul {
-    display: none ;
+    display: none;
     position: absolute;
     background-color:rgb(165, 158, 168);
     padding: 8px;
     border-radius: 0px 0px 2px 2x;
 }
+
+nav ul li:hover ul {
+    display: block;
+   
+}
+
 
 nav ul li ul li a {
 padding:10px 12px;
@@ -73,6 +80,14 @@ background-color: rgb(242, 242, 247);
 }
 
 
+ #vision{
+    font-family: Work sans, Raleway;
+    color: rgb(24, 22, 26);
+}
 
+#team {
+    font-family: Work sans, Raleway;
+    color: rgb(24, 22, 26);
+}
 
-
+    
